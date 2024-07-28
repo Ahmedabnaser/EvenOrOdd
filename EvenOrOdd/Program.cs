@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("pls enter a number ");
             int num = int.Parse(Console.ReadLine());
             if ((num & 1) == 1)
                 Console.WriteLine($"this number {num} is Odd ");
